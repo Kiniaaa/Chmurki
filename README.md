@@ -1,9 +1,9 @@
-Aby uruchomic apikacje wystarczy ja sklonowac i w katalogu projektu utworzy kontener, na ktorym bedzie ona pracowala. 
+Aby uruchomić apikację wystarczy ją sklonować i w katalogu projektu utworzyć kontener, na którym bedzie ona pracowała. 
 
 
-Nalezy uzyc polecenia :
+W tym celu można użyć polecenia :
 COMPOSE_DOCKER_CLI_BUILD=1 DOCKER_BUILDKIT=1 docker compose up --build
 
 
-nalezy w tym celu miec zainstalowanego docker compose w wersji 2, ktore korzysta z silnika buildkit
-na podstawie pliku docker compose utorzy ono kontener i korzystajac ze zdefiniowanych obrazow uruchomi na nim aplikacje.
+należy w tym celu mieć zainstalowanego docker compose w wersji 2, który korzysta z silnika buildkit
+na podstawie pliku docker compose polecenie to utowrzy kontener i korzystając ze zdefiniowanych obrazów uruchomi na nim aplikację oraz przeprowadzi testy.
